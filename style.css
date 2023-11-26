@@ -1,11 +1,15 @@
 
 body {
+    font-family:'Montserrat', sans-serif;
+    color: #000000;
     background: url(fondo.jpg);
     background-size: cover;
-    font-family: 'Montserrat';
-    color: #000000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
-#contenedor{
+#contenedor{    
     width: 900px;
     height: 500px;
     text-align: center;
@@ -65,7 +69,8 @@ button {
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #bfa180;
+	 background: rgb(191,154,114);
+    background: linear-gradient(180deg, rgba(191,154,114,1) 0%, rgba(180,137,90,1) 49%, rgba(218,193,166,1) 93%);
 	border: 1px solid #bfa180;
 	color: #FFFFFF;
 	text-transform: uppercase;
